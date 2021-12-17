@@ -1,0 +1,30 @@
+<element name='neutheme' src='../../../../../../node_modules/neumorphism/theme/theme.hml'></element>
+<!--You can choose between following themes:-->
+
+<!--white-->
+<!--silver-->
+<!--gray-->
+<!--black-->
+<!--red-->
+<!--maroon-->
+<!--yellow-->
+<!--olive-->
+<!--lime-->
+<!--green-->
+<!--aqua-->
+<!--teal-->
+<!--blue-->
+<!--navy-->
+<!--pink-->
+<!--purple-->
+<neutheme class="container" theme="black" >
+    <neutheme class="h1" theme="red" color="white">
+        <text>Welcome</text>
+    </neutheme>
+    <neutheme class="h2" theme="white" color="blue">
+        <text>To</text>
+    </neutheme>
+    <neutheme class="h3" theme="lime" color="white">
+        <text>Neumorphism</text>
+    </neutheme>
+</neutheme>
