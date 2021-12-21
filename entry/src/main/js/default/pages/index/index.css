@@ -1,0 +1,29 @@
+/*neumorphism*/
+
+button, input{
+    width: 100%;
+    height: 100%;
+    background-color:transparent;
+    text-color: black;
+}
+
+.h1, .h2, .h3{
+    width: 90%;
+    height: 10%;
+}
+
+/*neumorphism*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    margin: 40px 20px;
+    font-size: 40px;
+}
