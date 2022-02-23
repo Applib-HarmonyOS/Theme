@@ -1,0 +1,71 @@
+{
+    "app": {
+        "apiVersion": {
+            "compatible": 4,
+            "releaseType": "Release",
+            "target": 6
+        },
+        "vendor": "cyb0rg",
+        "bundleName": "com.cyb0rg.neumorphism_theme",
+        "version": {
+            "code": 1000000,
+            "name": "1.0.0"
+        }
+    },
+    "deviceConfig": {
+        "default": {
+            "debug": true
+        }
+    },
+    "module": {
+        "deviceType": [
+            "phone",
+            "tablet",
+            "tv",
+            "wearable"
+        ],
+        "abilities": [
+            {
+                "skills": [
+                    {
+                        "entities": [
+                            "entity.system.home"
+                        ],
+                        "actions": [
+                            "action.system.home"
+                        ]
+                    }
+                ],
+                "visible": true,
+                "name": "com.cyb0rg.neumorphism_theme.MainAbility",
+                "icon": "$media:icon",
+                "description": "$string:mainability_description",
+                "label": "$string:entry_MainAbility",
+                "type": "page",
+                "launchType": "standard",
+                "homeAbility": true
+            }
+        ],
+        "mainAbility": "com.cyb0rg.neumorphism_theme.MainAbility",
+        "distro": {
+            "moduleType": "entry",
+            "installationFree": false,
+            "deliveryWithInstall": true,
+            "moduleName": "entry"
+        },
+        "package": "com.cyb0rg.neumorphism_theme",
+        "name": ".MyApplication",
+        "js": [
+            {
+                "pages": [
+                    "pages/index/index"
+                ],
+                "name": "default",
+                "window": {
+                    "designWidth": 720,
+                    "autoDesignWidth": true
+                }
+            }
+        ]
+    }
+}

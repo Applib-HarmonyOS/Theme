@@ -1,0 +1,8 @@
+<div class="neumorph_container" style="width: {{width}}; height: {{height}}; border-radius: {{border}};">
+    <div class="neumorph_innercontainer neumorph_card" style="border-radius: {{border}};">
+        <swiper class="swiper" style="indicator-selected-color: {{color}}" id="swiper" index="{{index}}" indicator="{{indicator}}" loop="{{loop}}" digital="false" cachedsize="-1"
+    scrolleffect="spring">
+            <slot></slot>
+        </swiper>
+    </div>
+</div>

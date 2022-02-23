@@ -1,4 +1,4 @@
-<element name='neutheme' src='../../../../../../node_modules/neumorphism/theme/theme.hml'></element>
+<element name='neutheme' src='../node_modules/hmos-neumorphism/theme/theme.hml'></element>
 <!--You can choose between following themes:-->
 
 <!--white-->
