@@ -2,16 +2,11 @@
 
 # Installation :
 
-1. Copy the neumorph_theme folder in your repo.
-2. Add neumorphism as a dependency in your package.json file.
+Install using npm inside pages directory
 
-```json
-{
-  "dependencies": {
-    "neumorphism": "file:../neumorph_theme"
-  }
-}
-```
+```npm init -y```
+
+```npm i hmos-neumorphism ```
 
 # Note :
 
@@ -36,7 +31,7 @@ button, input{
 
 Import:
 ```html
-<element name='neumorphism' src='../../../../../../node_modules/neumorphism/theme/theme.hml'></element>
+<element name='neutheme' src='../node_modules/hmos-neumorphism/theme/theme.hml'></element>
 ```
 
 Usage:
