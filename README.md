@@ -2,9 +2,7 @@
 
 # Installation :
 
-Install using npm inside pages directory
-
-```npm init -y```
+Install using npm
 
 ```npm i hmos-neumorphism ```
 
@@ -31,7 +29,7 @@ button, input{
 
 Import:
 ```html
-<element name='neutheme' src='../node_modules/hmos-neumorphism/theme/theme.hml'></element>
+<element name='neutheme' src='../../../../../../node_modules/hmos-neumorphism/theme/theme.hml'></element>
 ```
 
 Usage:
