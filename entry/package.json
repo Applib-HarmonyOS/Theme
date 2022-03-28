@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "neumorphism": "file:../neumorph_theme"
+    "hmos-neumorphism": "^1.0.11"
   }
 }
